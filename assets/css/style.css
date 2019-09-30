@@ -1,0 +1,453 @@
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    
+}
+h2, h3, h4, h5, p, a {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+.font{
+   margin-left: 32px;
+    margin-right: 32px; 
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+    font-weight: bold;
+}
+td.col1{
+    background-color: rgba(144,46,62,0.4)
+}
+
+table,td{
+  border: 3px solid rgba(144,46,62,0.4);
+}
+
+input{
+      width: 100%;
+    border: none;
+    text-align: center;
+}
+
+
+.emoji{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.manos{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 10%;
+}
+
+
+.fle{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 10%;
+}
+
+.imagen{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+p{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    
+}
+
+p#texto{
+    word-spacing: 0.3em;
+}
+
+.imagen{
+    width: 100%;
+}
+
+header {
+    display: inline-block;
+    height:100vh;
+    position: relative;
+}
+
+
+nav {
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+}
+
+.name,.mail, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid   #902E3E;
+    text-align: center;
+    
+}
+
+form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#distantinput{
+    margin-top: 40px;
+}
+
+.submit,.calc,.calc1,.calc2{
+    padding: 10px 20px; 
+    background-color: #902E3E;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+a:{
+    color: #902E3E !important;
+    font-weight: bold;
+}
+
+
+iframe {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+        box-sizing: border-box;
+}
+
+.summary {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.background-cover {
+    background-image: url(../img/background5_tlt_theloyaltytool_datancia.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  height: 100%;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+
+.subtitle {
+    margin-bottom: 2.5em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.summary-content {
+    margin-top: -2em;
+}
+
+
+/**   Utils   **/
+
+.inherit-height {
+    height: inherit;
+}
+
+.margin-15{
+    margin-left: 0px !important;
+}
+
+.start-align {
+    text-align: start;   
+}
+
+.auto-center {
+    margin: 0 auto !important;
+}
+
+.light-text {
+    font-weight: 500;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+.just{
+    text-align: justify;
+}
+.font{
+    text-align: right;
+}
+/** Section **/
+
+.section-heading {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2.5em;
+}
+
+.section-title {
+    letter-spacing: 0.3em;
+    font-weight: 500;
+}
+
+.section-subtitle {
+    font-size:  1.25em;
+    font-weight: 600;
+}
+
+.separator {
+    width: 4em;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+.info-container{
+    text-align: justify;
+    padding-bottom: 3em; 
+}
+
+.info-container-sub {
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 4em; 
+}
+
+.title-question{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.prob{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+footer{
+    background-color: #902E3E;
+    line-height: 9px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+
+footer .row {
+    padding-top: 1em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 0 !important;
+}
+footer a:hover {
+    color: black !important;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer a {
+    color: white !important;
+    font-size: 13px;
+}
+
+
+/** Responsive **/ 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) { 
+
+    .title {
+        font-size: 2.5em;
+    }
+    .iframe-container{
+        max-width: 550px;
+    }
+    
+    
+    .subtitle{
+        font-size: 17px;
+    }
+    
+    .container1{
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagen{
+            width: 90%;
+    }
+    #texto{
+        font-size: 1em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    .prob{
+        width: 100%;
+        height: auto;
+    }
+ }
+    
+
+/* Medium devices (tablets, 768px and up) */
+@media  screen and (min-width: 768px) { 
+    .title {
+        font-size: 3em;
+    }
+    .iframe-container{
+        max-width: 700px;
+    }
+    .prob{
+        width: 80%;
+        height: auto;
+        
+        
+    }
+
+    .subtitle {
+        
+        font-size: 17px;
+    }
+    .container1{
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagen{
+            width: 90%;
+    }
+    #texto{
+        font-size: 1em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+    .title {
+        font-size: 3.2em;
+    }
+    .prob{
+        width: 80%;
+        height: auto;
+    }
+ 
+
+    .subtitle{
+        font-size:18px;
+        
+    }
+    
+    p{
+        font-size: 0.7em;
+    }
+   .container1{
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagen{
+            width: 70%; 
+    }
+    #texto{
+        font-size: 1em;
+    }
+    .iframe-container{
+        max-width: 900px;
+    }
+
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    .title {
+        font-size: 4.75em;
+    }
+
+    .iframe-container{
+        max-width: 1200px;
+    }
+
+    .summary {
+        padding-left: 12em;
+        padding-right: 12em;
+    }
+
+    .subtitle {
+        font-size: 19px;
+    }
+
+   .container1{
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagen{
+            width: 38%;
+    }
+    
+    #texto{
+        font-size: 1em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    
+    .section-title{
+        font-size: 2em;
+    }
+    
+    .prob{
+        width: 70%;
+        height: auto;
+    }
+
+ }
